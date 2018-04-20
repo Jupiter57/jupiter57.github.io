@@ -2,8 +2,8 @@ body {
   padding-bottom: 5rem;
 }
 
-header{
-  background: url(../images/portfolio2.jpg) center / cover;
+.mdl-layout__header{
+  background: url(../images/portfolio1.jpg) bottom / cover;
   height: 60vh;
   justify-content: center;
   text-align: center;
@@ -44,7 +44,7 @@ footer.mdl-mini-footer > ul {
 }
 
 @media screen and (max-width: 1024px) {
-  header.mdl-layout_header{
+  header.mdl-layout__header{
     display: flex;
   }
 }
